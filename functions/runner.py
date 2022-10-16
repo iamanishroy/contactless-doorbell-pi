@@ -1,7 +1,7 @@
 import uuid
-from adapter import Adapter
-from helpers.capture import capture
-from helpers.distance import distance
+from functions.adapter import Adapter
+from functions.helpers.capture import capture
+from functions.helpers.distance import distance
 
 
 class Runner(Adapter):
